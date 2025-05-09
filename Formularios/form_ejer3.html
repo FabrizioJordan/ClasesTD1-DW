@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form style="padding: 0.8em;
+        margin: 1em 0.4em;">
+        <fieldset style="padding: 0.8em;
+        margin: 1em 0.4em;">
+            <legend style="font-weight: 700;">Encuesta de Satisfacciòn</legend>
+            <label style="color: blue;">Nombre:
+                <input type="text" required>
+            </label>
+            <br><br>
+            <label>Correo Electrònico:
+                <input type="email" required>
+            </label><br><br>
+            <label style="font-style: italic;">Producto o Servicio Utilizado:
+                <input type="text" required>
+                <datalist>
+                    <option value="Microondas">Microondas</option>
+                    <option value="Lavarropas">Lavarropas</option>
+                    <option value="Tele">Tele</option>
+                </datalist>
+            </label>
+            <br><br>
+            <label style="color: red;">
+                Calificacion
+                <input style="color: blue;" type="radio" name="0" id="">
+                1
+                <input style="color: blue;" type="radio" name="0" id="">
+                2
+                <input style="color: blue;" type="radio" name="0" id="">
+                3
+                <input style="color: blue;" type="radio" name="0" id="">
+                4
+                <input style="color: blue;" type="radio" name="0" id="">
+                5
+            </label>
+            <br><br>
+            <label>
+                Comentarios Adicionales:
+                <textarea name="" id=""></textarea>
+            </label>
+            <br><br>
+        </fieldset>
+        <input type="submit" value="Enviar Encuesta">
+    </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Ejercicio 1</title>
+</head>
+
+<body>
+    <h2>Formulario con Validación</h2>
+    
+    <form>
+        <fieldset>
+            <legend>Información Personal</legend>
+            <label>Nombre:
+                <input type="text" required>
+            </label>
+            <br><br>
+            <label>Correo Electrónico:
+                <input type="email" required>
+            </label><br><br>
+            <label>Contraseña:
+                <input type="password" min="8" max="100" required>
+            </label>
+            <br><br>
+            <label>
+                Fecha de Nacimiento
+                <input type="date" name="fechaNac" id="">
+            </label>
+            <br><br>
+            <label>
+                Gènero
+                <select>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </label>
+            <br><br>
+            <label>
+                <input type="checkbox" name="terminos" id="">
+                Aceptar Términos y Condiciones
+            </label>
+            <br><br>
+        </fieldset>
+        <input type="submit" value="Registrarse">
+    </form>
+  
+</body>
+</html>

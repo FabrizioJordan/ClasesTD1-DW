@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Ejercicio 1</title>
+</head>
+
+<body>
+
+    <h2>Formulario con Validación</h2>
+
+    <form>
+        <fieldset>
+            <legend>Contacta con Nosotros</legend>
+            <label>Nombre:
+                <input type="text" required>
+            </label>
+
+            <br><br>
+
+            <label>Correo Electrónico:
+                <input type="email" required>
+            </label><br><br>
+
+            <label>Asunto:
+                <input type="text">
+            </label>
+
+            <br><br>
+
+            <label>
+                Mensaje:
+                <textarea name="mensaje" id=""></textarea>
+            </label>
+
+            <br><br>
+
+            <label>
+                Categoría del Mensaje
+                <select>
+                    <option value="Sugerencia">Sugerencia</option>
+                    <option value="Queja">Queja</option>
+                    <option value="Consulta">Consulta</option>
+                </select>
+            </label>
+
+            <br><br>
+
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
