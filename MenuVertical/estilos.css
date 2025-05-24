@@ -1,0 +1,28 @@
+nav{
+    width: 150px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+
+}
+
+nav ul li a{
+    background-color: aquamarine;
+    display: block;
+    padding: 5px;
+    color: red;
+    text-decoration: none;
+    margin: 2px;
+}
+
+nav ul li a:hover{
+    background-color: cadetblue;
+}
+
+html{
+    scroll-behavior: smooth;
+}
