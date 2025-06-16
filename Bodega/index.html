@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bodegas El Racimo</title>
+</head>
+<body class="relative" id="inicio">
+
+    <header>
+        <h1>Bodegas El Racimo SRL</h1>
+    </header>
+    
+    <main class="relative">
+        <nav class="navPrincipal">
+            <ul>
+                <li><a href="quienes-somos.html">Quienes Somos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    
+        <section id="servicios" class="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>¿Donde entregamos nuestros vinos?</li>
+                <li>Venta directa de vinos</li>
+                <li>Eventos nuestro</li>
+                <li>Degustacion de vinos</li>
+                <li>Visitas a la bodega</li>
+            </ul>
+        </section>
+    
+        <section id="productos">
+            <h2>Productos Destacados</h2>
+            <table class="productos">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Contenido</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vino Mi Abuelo</td>
+                        <td>2 L</td>
+                        <td>$ 230,00</td>
+                    </tr>
+                    <tr>
+                        <td>Vino Mi Tia</td>
+                        <td>450 Ml</td>
+                        <td>$ 99,00</td>
+                    </tr>
+                    <tr>
+                        <td>Vino Mi Primo</td>
+                        <td>1.5 L</td>
+                        <td>$ 628,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    
+    
+       <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+        <form>
+    
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+    
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+    
+            <div>
+                <label for="mensaje">Mensaje</label>   
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+            </div>
+    
+            <input type="submit" value="Enviar">
+        </form>
+       </section>
+       
+    
+        <div class="fixed divBtnVolver">
+            <button class="btnVolver" type="button">
+                <a href="#inicio">Inicio</a>
+            </button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bodegas El Racimo SRL</p>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

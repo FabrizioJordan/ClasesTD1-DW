@@ -1,0 +1,16 @@
+header{
+    background-color: aqua;
+}
+
+main{
+    background-color: slateblue;
+}
+
+article{
+    background: orange;
+    border: 1px solid black;
+}
+
+footer{
+    background: greenyellow;
+}
