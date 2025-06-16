@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Ferretería El Tornillo Feliz SRL</title>
+</head>
+<body id="inicio">
+    <header>
+        <h1>Ferretería El Tornillo Feliz SRL</h1>
+    </header>
+
+    <main>
+        <nav class="menuPrincipal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Entrega a domicilio</li>
+                <li>Asesoramiento técnico</li>
+                <li>Ventas por mayor</li>
+            </ul>
+        </section>
+
+        <section id="productos">
+            <h2>Herramientas Destacadas</h2>
+            <table class="tablaProductos">
+                <thead>
+                    <tr>
+                        <th>Herramienta</th>
+                        <th>Precio</th>
+                        <th>Disponibilidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Taladro Eléctrico</td>
+                        <td>$ 2.490</td>
+                        <td>En stock</td>
+                    </tr>
+                    <tr>
+                        <td>Destornillador de Precisión</td>
+                        <td>$ 890</td>
+                        <td>Disponible</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+
+                <div>
+                    <label for="consulta">Consulta</label>
+                    <textarea id="consulta" name="consulta" rows="4"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <div class="divVolver">
+            <button class="btnVolver">
+                <a href="#inicio">Volver al inicio</a>
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ferretería El Tornillo Feliz SRL</p>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
