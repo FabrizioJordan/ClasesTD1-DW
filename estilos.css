@@ -41,3 +41,22 @@ main{
     justify-content: center;
     gap: 2rem;
 }
+
+section a{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: #000;
+    transition-duration: 200ms;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+
+section a:hover{
+    color: #cdcdcd;
+    background-color: #000000b0;
+    cursor: pointer;
+    
+}
