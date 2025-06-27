@@ -61,3 +61,24 @@ section a:hover{
     
 }
 
+.fixed{
+    position: fixed;
+}
+
+.relative { position: relative;}
+
+
+.w-4{ width: 4em;}
+.h-4{ height: 4em;}
+
+.bottom-4{ bottom: 4em;}
+.right-4{ right: 4em;}
+
+.w-full{ width: 100%;}
+.h-full{ height: 100%;}
+
+.w-3{ width: 3em;}
+.h-3{ height: 3em;}
+
+.bottom-3{ bottom: 3em;}
+.right-3{ right: 3em;}
